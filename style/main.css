@@ -81,8 +81,9 @@
 @media(max-width:390px){
     .main{
     background-color: #010312;
-    width: 420px;
-    height: 687px;
+      max-width: 405px;
+  width: 100%;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,16 +120,17 @@
 .main_title{
     font-weight: 500;
     margin-top: 20px;
-    width: 100%;
-    width: 420px;
+  max-width: 400px;
+  width: 100%;
 }
 .main_contact{
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
-    padding: 23px 60px;
+    padding: 23px 50px;
     border-radius: 10px;
-    width: 420px;
+      max-width: 405px;
+  width: 100%;
     height: 170px;
     gap: 20px;
     background-color: #12121E;

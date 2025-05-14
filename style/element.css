@@ -184,8 +184,8 @@
     background-image: url(../img/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
 }
 .tops{
-    top: -600px;
-        transition: all ease-in-out 0.5s;
+    top: -1000px;
+    transition: all ease-in-out 0.5s;
 }
 .my_wrapper{
     display: flex;
@@ -197,10 +197,14 @@
 }
 .my_cards{
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
+    width:1195px;
+    height: 100vh;
+    flex-direction: row;
     justify-content: center;
     color: #F4F6F8;
+    flex-wrap: wrap;
+    margin-top: 0px;
 }
 .s{
     width: 240px;
@@ -208,15 +212,17 @@
     border-color: #F4F6F8;
 }
 .cb{
-    background-size: 277px 150px;
+    background-size: 235px 150px;
     width: 235px;
-    height: 130px;
+    height: 140px;
 }
 .b1{
-    width: 160px;
+    width: 140px;
+    height: 20px;
 }
 .b2{
     width: 200px;
+    height: 20px;
 }
 .bs{
     margin-left: 175px;
@@ -244,4 +250,263 @@
 }
 .x:hover{
     background-color: rgb(38, 38, 38);
+}
+@media(max-width:390px){
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/Premium\ Vector\ _\ Black\ abstract\ background\ with\ gray\ line.jpg);
+    background-size: 390px 110vh;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    z-index: 2;
+    transition: all ease-in-out 0.8s;
+}
+.m_act{
+    right: -2000px;
+}
+.modal_span{
+    display: flex;
+    gap: 10px;
+    padding: 3px 9px;
+    border-radius: 7px;
+    border: #ff6d4500 2px solid;
+    margin-bottom: -40px;
+    margin-top: 20px;
+}
+.modal_span:hover{
+    background-color:rgba(0, 0, 0, 0.497);
+    border: #ff6d456b 2px solid;
+}
+.modal_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    height: 100vh;
+}
+.modal_logo{
+    width: 350px;
+    height: 350px;
+    background-color:#060037;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal_logo_back{
+    width: 340px;
+    height: 340px;
+    background-image: url(../img/logo.png);
+    background-size: 340px 340px;
+    border-radius: 50%;
+}
+.about_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+.modal_title{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.about_text{
+    width: 375px;
+    font-size: 20px;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+.lets{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    gap: 0px;
+    display: flex;  
+    flex-direction: column;
+    left: 0;
+    transition: all ease-in-out 0.8s;
+}
+.hide{
+    left: -2000px;
+    transition: all ease-in-out 0.8s;
+}
+.show{
+    display: flex;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -50px;
+}
+.lets_ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 390px;
+    background-color: #F4F6F8;
+    /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3); */
+    margin: 10px  0px;
+    height: 400px;
+}
+.back_home{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100px;
+    height: 40px;padding-right: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    transition: all ease-in-out 0.4s;
+}
+.scroll_btn{
+    width: 40px; height: 40px;
+    position: fixed;
+    top: 510px;
+    background-color: #FF6E45;
+    color: #F4F6F8;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    right: 5px;
+    transition: all ease-in-out 0.3s;
+    z-index: 1;
+    display: none;
+}
+.scroll_btn:hover{
+    background-color: #ff3700;
+}
+.scroll_btn:active{
+    opacity: 0.5;
+}
+.scroll_btn.active{
+    display: block;
+}
+.container{
+    transition: all ease-in-out 0.4s;
+}
+.back_home:hover{
+    background-color: #FF6E45;
+    border-radius: 5px;
+    color: #F4F6F8;
+}
+.lets_ul_li{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.lets_wrapper{
+    width: 100%;
+    height: 530px;
+    background-image: url(../img/handle_pixel_call_v2.width-2200.format-webp.webp);
+    background-size: 450px 270px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 47px;
+
+}
+.lets_img{
+    width: 30px; height: 30px;
+}
+.service_btn:hover{
+    border-radius: 5px;
+    background-color: #ff3700;
+}
+.my{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    transition: all ease-in-out 0.8s;
+    left: 0;
+    background-position: center;
+    background-size:100% 100vh;
+    background-image: url(../img/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+}
+.tops{
+    top: -1000px;
+    transition: all ease-in-out 0.5s;
+}
+.my_wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+.my_cards{
+    display: flex;
+    gap: 20px;
+    width:385px;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    justify-content: center;
+    color: #F4F6F8;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.s{
+    width: 300px;
+    height: 300px;
+    border-color: #F4F6F8;
+}
+.cb{
+    background-size: 295px 170px;
+    width: 295px;
+    height: 170px;
+}
+.b1{
+    width: 160px;
+}
+.b2{
+    width: 230px;
+}
+.bs{
+    margin-left: 235px;
+    margin-top: 110px;
+    border-bottom-right-radius: 20px;
+}
+.t{
+    width: 300px;
+    font-size: 27px;
+    border-color: #F4F6F8;
+}
+.x{
+    color: #F4F6F8;
+    width: 180px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 5px;
+    margin-top: 10px;
+    transition: all ease-in-out 0.6s;
+}
+.x:hover{
+    background-color: rgb(38, 38, 38);
+}
 }
