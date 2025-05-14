@@ -1,0 +1,163 @@
+.main{
+    background-color: #010312;
+    width: 1195px;
+    height: 537px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+}
+.main_left{
+    width: 350px;
+    height: 350px;
+    background-color: #FF6E45;
+    border-radius: 50%;
+}
+.main_background{
+    width: 340px;
+    height: 340px;
+    margin: 5px auto;
+    background-image: url(../img/logo.png);
+    background-size: 340px 340px;
+    border-radius: 50%;
+}
+.about_modal_btn{
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1.5px solid #FF6E45;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+.about_modal_btn:hover{
+    border-radius: 5px;
+}
+.main_title{
+    font-weight: 500;
+    margin-top: 20px;
+    width: 100%;
+    width: 500px;
+}
+.main_contact{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 23px 50px;
+    border-radius: 10px;
+    width: 430px;
+    height: 170px;
+    gap: 30px;
+    background-color: #12121E;
+}
+.main_text2{
+    font-size: 15px;
+    font-weight: 500;
+}
+.main_text{
+    color: #FF6E45;
+}
+.contact_btn{
+    width: 180px;
+    font-size: 17px;
+    font-weight: 600;
+    height: 40px;
+    background-color: #FF6E45;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    transition: all ease-in-out 0.5s;
+}
+.contact_btn:hover{
+    background-color: #ff3700;
+    border-radius: 5px;
+}
+@media(max-width:390px){
+    .main{
+    background-color: #010312;
+    width: 420px;
+    height: 687px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+.main_left{
+    width: 250px;
+    height: 250px;
+    background-color: #FF6E45;
+    border-radius: 50%;
+}
+.main_background{
+    width: 240px;
+    height: 240px;
+    margin: 5px auto;
+    background-image: url(../img/logo.png);
+    background-size: 240px 240px;
+    border-radius: 50%;
+}
+.about_modal_btn{
+    font-size: 16px;
+    padding: 8px 35px;
+    border-radius: 20px;
+    border: 1.5px solid #FF6E45;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+.about_modal_btn:hover{
+    border-radius: 5px;
+}
+.main_title{
+    font-weight: 500;
+    margin-top: 20px;
+    width: 100%;
+    width: 440px;
+}
+.main_contact{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 23px 80px;
+    border-radius: 10px;
+    width: 445px;
+    height: 170px;
+    gap: 30px;
+    background-color: #12121E;
+}
+.main_text2{
+    font-size: 13px;
+    font-weight: 500;
+}
+.main_text{
+    color: #FF6E45;
+}
+.contact_btn{
+    width: 180px;
+    font-size: 17px;
+    font-weight: 600;
+    height: 40px;
+    background-color: #FF6E45;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    transition: all ease-in-out 0.5s;
+}
+.contact_btn:hover{
+    background-color: #ff3700;
+    border-radius: 5px;
+}
+}

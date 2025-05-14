@@ -1,0 +1,158 @@
+.skills_img{
+    width: 50px;
+    height: 50px;
+}
+.hero{
+    width: 1195px;
+    height: 537px;
+    background-color: #0A0C18;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.skills_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px;
+    gap: 10px;
+}
+.skils_item{
+    width: 200px;
+    height: 150px;
+    border: 2px solid #1B1D29;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.4s ease;
+}
+.i_1:hover{
+    margin-top: -5px;
+}
+.i_2:hover{
+    margin-top: -5px;
+}
+.i_3:hover{
+    margin-top: -5px;
+}
+.i_4:hover{
+    margin-top: -5px;
+}
+.i_5:hover{
+    margin-top: -5px;
+}
+.i_6:hover{
+    margin-top: -5px;
+}
+.i_7:hover{
+    margin-top: -5px;
+}
+.i_8:hover{
+    margin-top: -5px;
+}
+.pr{
+    width: 170px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    justify-content: center;
+    background-color: #FF6E45;
+}
+.hero_text{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.hero_text_color{
+    color: #FF6E45;
+}
+.hero_title{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+@media(max-width:390px){
+    .skills_img{
+    width: 50px;
+    height: 50px;
+}
+.hero{
+    width: 445px;
+    height: 850px;
+    background-color: #0A0C18;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.skills_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 445px;
+    gap: 10px;
+    justify-content: center;
+}
+.skils_item{
+    width: 180px;
+    height: 150px;
+    border: 2px solid #1B1D29;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.4s ease;
+}
+.i_1:hover{
+    margin-top: -5px;
+}
+.i_2:hover{
+    margin-top: -5px;
+}
+.i_3:hover{
+    margin-top: -5px;
+}
+.i_4:hover{
+    margin-top: -5px;
+}
+.i_5:hover{
+    margin-top: -5px;
+}
+.i_6:hover{
+    margin-top: -5px;
+}
+.i_7:hover{
+    margin-top: -5px;
+}
+.i_8:hover{
+    margin-top: -5px;
+}
+.pr{
+    width: 170px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    justify-content: center;
+    background-color: #FF6E45;
+}
+.hero_text{
+    margin-bottom: 50px;
+    text-align: center;
+    padding:0px 10px;
+}
+.hero_text_color{
+    color: #FF6E45;
+}
+.hero_title{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+}
