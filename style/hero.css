@@ -81,7 +81,7 @@
     height: 50px;
 }
 .hero{
-    width: 445px;
+    width: 420px;
     height: 850px;
     background-color: #0A0C18;
     display: flex;
@@ -93,7 +93,7 @@
 .skills_wrap{
     display: flex;
     flex-wrap: wrap;
-    width: 445px;
+    width: 420px;
     gap: 10px;
     justify-content: center;
 }

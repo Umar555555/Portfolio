@@ -97,7 +97,7 @@
 
 @media(max-width:390px){
     .header{
-    width: 445px;
+    width: 420px;
     height: 250px;
     background-image: url(../img/Three\ phases\ of\ malware\ defense.jpg);
     background-size: 1197px 370px;
@@ -105,7 +105,7 @@
     background-position: center;
 }
 .header_backround{
-    width: 445px;
+    width: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;

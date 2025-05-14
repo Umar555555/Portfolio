@@ -120,17 +120,17 @@
     font-weight: 500;
     margin-top: 20px;
     width: 100%;
-    width: 440px;
+    width: 420px;
 }
 .main_contact{
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
-    padding: 23px 80px;
+    padding: 23px 60px;
     border-radius: 10px;
-    width: 445px;
+    width: 420px;
     height: 170px;
-    gap: 30px;
+    gap: 20px;
     background-color: #12121E;
 }
 .main_text2{

@@ -116,7 +116,7 @@
 }
 @media(max-width:390px){
     .extra{
-    width: 445px;
+    width: 420px;
     height: 607px;
     background-color: #0A0C18;
     display: flex;
@@ -140,7 +140,7 @@
     margin-top: 50px;
 }
 .extra_input{
-    width: 385px;
+    width: 415px;
     height: 50px;
     background-color: transparent;
     border-radius: 7px;
@@ -151,7 +151,7 @@
     border: 2px solid rgb(47, 47, 47);
 }
 .extra_coment_input{
-    width: 385px;
+    width: 415px;
     height: 50px;
     background-color: transparent;
     border-radius: 7px;
@@ -163,7 +163,7 @@
     border: 2px solid rgb(47, 47, 47);
 }
 .f_submit{
-    width: 385px;
+    width: 415px;
     height: 50px;
     background-color: #FF6B48;
     border: none;
@@ -184,7 +184,7 @@
     color:#FF6B48;
 }
 .extra_cards{
-    width: 385px;
+    width: 415px;
     height: 250px;
     margin-top: 100px;
     border-radius: 15px;
@@ -200,7 +200,7 @@
     padding: 10px 0px;
 }
 .extra_card{
-    width: 370px;
+    width: 400px;
     border-radius: 6px;
     background-image: url(../img/Premium\ Vector\ _\ Black\ abstract\ background\ with\ gray\ line.jpg);
     background-size: 300px 230px;

@@ -18,10 +18,10 @@ body {
     align-items: center;
 }
 
-@media(max-width : 440px){
+@media(max-width : 390px){
 .container{
   width: 100%;
-  max-width: 440px;
+  max-width: 420px;
 }
 .lets{
   display: none;
@@ -38,7 +38,7 @@ body {
   text-align: center;
 }
 .main_right{
-  width: 390px;
+  width: 420px;
   justify-content: center;
   align-items: center;
   display: flex;
