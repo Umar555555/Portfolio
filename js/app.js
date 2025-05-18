@@ -1,5 +1,11 @@
 'use strict'
 
+document.addEventListener('DOMContentLoaded', ()=>{
+    let loader = document.querySelector('.loader_container')
+    let timerLoader = setTimeout(()=>{
+        loader.classList.add('hide')
+    }, 2500)
+
 let aboutModal = document.querySelector('.about_span')
 let aboutModalBtn = document.querySelector('.about_modal_btn')
 let modal = document.querySelector('.modal')
@@ -153,6 +159,7 @@ tope.addEventListener('click', ()=>{
 })
 burger.addEventListener('click', ()=>{
     headerull.classList.remove('tops')
+})
 })
 
 
