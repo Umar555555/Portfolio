@@ -3,7 +3,7 @@ body{
 }
 *{
     color:transparent;
-    animation: both linear 10s box;
+    animation: both infinite 5s box;
 }
 .nice{
     opacity: 0.2;
@@ -38,7 +38,7 @@ span{
 }
 .wrapper{
     font-size: 20px;
-    margin: 50px auto;
+    margin: 0px auto;
     width: 390px;
 }
 .hacker-green1{

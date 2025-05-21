@@ -8,6 +8,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+.forma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 body{
     background-color: black;
